@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.108.0">
-    <title>Cover Template · Bootstrap v5.3</title>
+    
+    <title>Gallery</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
@@ -14,7 +12,6 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&family=Roboto:wght@300&family=Unbounded:wght@600&family=Zen+Antique&display=swap" rel="stylesheet">
     
 
     
@@ -26,24 +23,27 @@
     <link href="cover.css" rel="stylesheet">
   </head>
   <body >
+    <style>
+      .hero-bg {
+  background-image: linear-gradient(rgba(78, 58, 81, 0.4), rgba(78, 58, 81, 0.4)), url("img/21.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+    </style>
 
-  <section class="d-flex h-100 text-center header --bs-border-color bg-dark">
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0 text-white" style="font-family: 'Unbounded', cursive;">Milani Mtshotshisa</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 " aria-current="page" href="index.html">Home</a>
-        <a class="nav-link fw-bold py-1 px-0 active" href="gallery.html">Gallery</a>
-        <a class="nav-link fw-bold py-1 px-0 " href="#">Follow+</a>
-      </nav>
+
+    <div class="hero-bg">
+      <div class="hero-text">
+        <h1>Gallery</h1>
+       <a href="index.html" class="hero-btn"> Home</a>
+      </div>
     </div>
-  </header>
-</div>
-</section>
 
 <div class="p-3 text-center bg-light">
-<h3 class="mb-0 text-dark " style="font-family: 'Unbounded', cursive;">Gallery</h3>
+
 </div>
 <div class="album py-2 bg-light">
     <div class="container">
@@ -53,7 +53,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/1.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -67,7 +66,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/2.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -80,7 +78,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/3.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -94,7 +91,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/4.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -107,7 +103,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/5.jpeg" alt="">
              <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -120,7 +115,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/6.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -134,7 +128,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/7.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -147,7 +140,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/8.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -160,7 +152,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/9.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -173,7 +164,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/10.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -186,7 +176,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/11.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -199,7 +188,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/12.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -212,7 +200,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/13.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -225,7 +212,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/14.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -238,7 +224,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/16.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -251,7 +236,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/17.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -265,7 +249,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/18.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -279,7 +262,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/19.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -294,7 +276,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/20.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -308,7 +289,6 @@
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" src="img/21.jpeg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
