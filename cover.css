@@ -1,3 +1,18 @@
+@font-face {
+  font-family: myFont;
+  src: url(fonts/Higuen-Serif.ttf.otf);
+}
+
+@font-face {
+  font-family: theseason;
+  src: url(fonts/theseason.otf);
+}
+
+@font-face {
+  font-family: com;
+  src: url(fonts/CormorantGaramond-Regular.ttf);
+}
+
 /*
  * Globals
  */
@@ -25,10 +40,19 @@
   transform: translate(-50%, -50%);
   color: white;
   font-size: 1.25rem;
+  font-family: serif;
 }
 
 h1 {
   font-size: 6rem;
+  font-family: theseason;
+  font-weight: lighter;
+}
+
+h2{
+  font-family: myFont;
+  margin-bottom: 2rem ;
+  color: #00634D;
 }
 
 .hero-btn {
@@ -42,11 +66,29 @@ h1 {
   border-radius: 5%;
   cursor: pointer;
   border: 1px solid white;
+  width: 10rem;
 }
 
 .hero-btn:hover {
   border: 1px solid darkolivegreen;
   transition: ease-in-out 0.3s;
+}
+
+
+/* about */
+
+.about {
+  background-color: #EFEDE7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+p{
+  font-family: com;
+  color:#00634D
 }
 
 /* Custom default button */
@@ -57,8 +99,10 @@ h1 {
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-img {
-  /* Styles for images */
+.milani-img {
+
+  margin-top: 5rem;
+
 }
 
 /*
@@ -111,7 +155,23 @@ body {
     
        h1 {
       font-size: 3rem;
+      margin-bottom: 14rem;
+      margin-top: 10rem
     }
+
+    h2{
+      margin-top: 2rem;
+      
+    }
+
+    .milani-img{
+
+      margin-top: 0rem;
+    
+    }
+    
+
+    
   }
 
   /* Edits for image */
@@ -122,4 +182,4 @@ body {
     max-height: 420px;
     margin-bottom: 1rem;
   }
-}
+
