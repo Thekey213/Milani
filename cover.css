@@ -55,6 +55,31 @@ h2{
   color: #00634D;
 }
 
+
+.footer-img{
+  background-image: url("img/4.jpeg");;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+}
+
+.footer-im{
+  background-color: #303F3C;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 40vh;
+}
+
+.footer-im-text{
+  font-family: com;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
 .hero-btn {
   display: inline-block;
   color: white;
