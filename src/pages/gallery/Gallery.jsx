@@ -3,6 +3,8 @@ import { db } from '../../../firebase/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import { getStorage, ref, getDownloadURL } from 'firebase/storage';
 import { Link } from 'react-router-dom';
+import './Gallery.css';
+
 
 const Gallery = () => {
   const [images, setImages] = useState([]);
@@ -69,39 +71,10 @@ const Gallery = () => {
   return (
     <div className="h-100">
       <style>{`
-        .hero-bg {
-          background-image: linear-gradient(rgba(78, 58, 81, 0.4), rgba(78, 58, 81, 0.4)), url("/src/assets/img/21.jpeg");
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          position: relative;
-          height: 100vh;
-        }
-
-        .back-to-top-btn, .home-btn {
-          position: fixed;
-          bottom: 20px;
-          right: 20px;
-          width: 50px;
-          height: 50px;
-          background-color: #303F3C; 
-          color: #fff;
-          border: none;
-          border-radius: 50%;
-          font-size: 1.5rem;
-          cursor: pointer;
-        }
-
-       
-
-        .card img {
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-        }
+        
       `}</style>
 
-      <div className="hero-bg">
+      <div className="hero-my">
         <div className="hero-text"></div>
       </div>
 

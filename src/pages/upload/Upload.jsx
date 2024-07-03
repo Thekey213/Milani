@@ -3,6 +3,7 @@ import { db } from '../../../firebase/firebase';
 import { collection, getDocs, addDoc, deleteDoc, doc } from 'firebase/firestore';
 import { getStorage, ref, getDownloadURL, uploadBytes, deleteObject } from 'firebase/storage';
 import { Link } from 'react-router-dom';
+import './Upload.css';
 
 const Upload = () => {
   const [images, setImages] = useState([]);
@@ -126,71 +127,8 @@ const Upload = () => {
 
   return (
     <div className="h-100">
-      <style>{`
-        .hero-bg {
-          background-image: linear-gradient(rgba(78, 58, 81, 0.4), rgba(78, 58, 81, 0.4)), url("/src/assets/img/21.jpeg");
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          position: relative;
-          height: 100vh;
-        }
-
-        .back-to-top-btn, .home-btn {
-          position: fixed;
-          bottom: 20px;
-          right: 20px;
-          width: 50px;
-          height: 50px;
-          background-color: #303F3C; 
-          color: #fff;
-          border: none;
-          border-radius: 50%;
-          font-size: 1.5rem;
-          cursor: pointer;
-        }
-
-        .home-btn {
-          bottom: 80px;
-        }
-
-        .card img {
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-        }
-
-        .card-body {
-          display: none;
-        }
-
-        .delete-btn {
-          position: absolute;
-          top: 10px;
-          right: 10px;
-          background-color: rgba(255, 0, 0, 0.7);
-          color: white;
-          border: none;
-          border-radius: 50%;
-          width: 25px;
-          height: 25px;
-          text-align: center;
-          line-height: 25px;
-          cursor: pointer;
-          z-index: 10;
-        }
-
-        .upload-icon {
-          font-size: 2rem;
-          cursor: pointer;
-        }
-
-        .file-input {
-          display: none;
-        }
-      `}</style>
-
-      <div className="hero-bg">
+     
+      <div className="hero-ry">
         <div className="hero-text"></div>
       </div>
 
@@ -238,6 +176,20 @@ const Upload = () => {
           </div>
         </div>
       </div>
+
+    <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">&copy; Milani Mtshotshisa, </p>
+
+   
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><Link to="/" class="nav-link px-2 text-body-secondary">Home</Link></li>
+      <li class="nav-item"><Link to="/gallery" class="nav-link px-2 text-body-secondary">Gallery</Link></li>
+     
+    </ul>
+  </footer>
+</div>
 
       <div className="modal fade" id="imageModal" tabIndex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
         <div className="modal-dialog">
