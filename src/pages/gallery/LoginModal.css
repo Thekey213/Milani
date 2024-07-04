@@ -1,0 +1,81 @@
+/* LoginModal.css */
+
+.modal.show {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5); /* Dim background */
+    overflow-y: auto; /* Scroll if needed */
+  }
+  
+  .modal-dialog {
+    max-width: 400px; /* Set a max-width */
+    margin: 1.75rem auto; /* Center modal */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  .modal-content {
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Ensure content follows dialog rounding */
+  }
+  
+  .modal-header {
+    border-bottom: none; /* Remove default header border */
+    padding: 1.5rem; /* More padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Light grey background for header */
+    border-top-left-radius: 8px; /* Match dialog rounding */
+    border-top-right-radius: 8px; /* Match dialog rounding */
+  }
+  
+  .modal-title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .btn-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .modal-body {
+    padding: 1.5rem; /* More padding */
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    margin-top: 0.25rem;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #00634D;
+    border-color: #009b79;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #001f18;
+    border-color: #009b79;
+  }
+  

@@ -127,7 +127,6 @@ const Upload = () => {
 
   return (
     <div className="h-100">
-     
       <div className="hero-ry">
         <div className="hero-text"></div>
       </div>
@@ -177,19 +176,15 @@ const Upload = () => {
         </div>
       </div>
 
-    <div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-body-secondary">&copy; Milani Mtshotshisa, </p>
-
-   
-
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><Link to="/" class="nav-link px-2 text-body-secondary">Home</Link></li>
-      <li class="nav-item"><Link to="/gallery" class="nav-link px-2 text-body-secondary">Gallery</Link></li>
-     
-    </ul>
-  </footer>
-</div>
+      <div className="container">
+        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p className="col-md-4 mb-0 text-body-secondary">&copy; Milani Mtshotshisa, </p>
+          <ul className="nav col-md-4 justify-content-end">
+            <li className="nav-item"><Link to="/" className="nav-link px-2 text-body-secondary">Home</Link></li>
+            <li className="nav-item"><Link to="/gallery" className="nav-link px-2 text-body-secondary">Gallery</Link></li>
+          </ul>
+        </footer>
+      </div>
 
       <div className="modal fade" id="imageModal" tabIndex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
         <div className="modal-dialog">
